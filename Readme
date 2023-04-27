@@ -1,0 +1,19 @@
+EC2-PROJECT
+
+Deploy a Web Application to Amazon ECS with EC2, Docker, ECR, Load balancer
+
+
+PRACTICAL STEPS
+
+Create an instance in AWS ec2-server
+ssh into the instance on linux
+change to root user ( Sudo su)
+download docker for linux(depending on your OS)
+
+start docker with systemctl start docker
+check the status  systemctl status docker- make sure it shows Active running status
+
+Build a Centos image with Dockerfile and index.html files containerizing using docker and Deployment to Amazon ECS
+create an Amazon ECR  and push the image to it
+
+then create a loadbalancer to balance 
