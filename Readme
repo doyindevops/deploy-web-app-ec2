@@ -16,4 +16,4 @@ check the status  systemctl status docker- make sure it shows Active running sta
 Build a Centos image with Dockerfile and index.html files containerizing using docker and Deployment to Amazon ECS
 create an Amazon ECR  and push the image to it
 
-then create a loadbalancer to balance 
+Finally create a loadbalancer to balance 
