@@ -3,7 +3,7 @@ EC2-PROJECT
 Deploy a Web Application to Amazon ECS with EC2, Docker, ECR, Load balancer
 
 
-PRACTICAL STEPS
+PRACTICAL STEPS TO TAKE
 
 Create an instance in AWS ec2-server
 ssh into the instance on linux
